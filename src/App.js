@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Hook from './components/Hook';
+
+
+import StoreIndex from './Redux/StoreIndex';
 
 function App() {
   return (
     <div className="App">
-
-    <Hook/>
-
+      <StoreIndex />
     </div>
   );
 }
